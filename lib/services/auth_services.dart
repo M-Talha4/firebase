@@ -1,5 +1,3 @@
-
-
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -22,11 +20,8 @@ class AuthService{
 
   }
 
-
   Future<User?> login(String email, String password,BuildContext context) async{
-
-
-
+    //thsi is commit
 
     try{
       UserCredential userCredential =  await firebaseAuth.signInWithEmailAndPassword(email: email, password: password);
