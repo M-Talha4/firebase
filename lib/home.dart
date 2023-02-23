@@ -11,9 +11,8 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-
       appBar: AppBar(
-        title: Text("Home"),
+        title: Text("Firebase"),
         centerTitle: true,
         backgroundColor: Colors.pink,
         actions: [
